@@ -9,7 +9,7 @@ const ejsMate = require("ejs-mate");
 const wrapAsync = require("./utils/wrapAsync.js");
 const ExpressError = require("./utils/ExpressError.js");
 const { listingSchema, reviewSchema } = require("./schema.js");
-const Review = require("./models/review.js");
+const Review = require("./models/review.js");    
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/staywise";
 
