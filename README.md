@@ -8,7 +8,7 @@ Staywise is a full-stack web application similar to Airbnb. It allows users to l
 
 - **User Authentication**: Secure login and signup using Passport.js.
 - **Add Listings**: Users can add their rental places with details and images.
-- **Browse Listings**: Explore available rental places with a user-friendly interface.
+- **Browse Listings**: Explore available rental places with a user-friendly interface.   
 - **Session Management**: Manage user sessions with web cookies.
 - **Responsive Design**: Fully responsive design built with Bootstrap for an optimized experience on all devices.
 - **Modular Codebase**: Structured with Express Router and middleware for maintainability.
