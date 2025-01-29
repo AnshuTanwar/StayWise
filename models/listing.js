@@ -8,7 +8,7 @@ const listingSchema = new Schema({
         required: true,
     },
     description: String,
-    image: {
+    image: {   
         filename: {
           type: String,
           default: "listingimage",
