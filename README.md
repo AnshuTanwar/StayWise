@@ -2,6 +2,11 @@
 
 Staywise is a full-stack web application similar to Airbnb. It allows users to list their rental properties and explore other rental places with ease. Built with the MERN stack, Staywise delivers a seamless experience for users to manage and discover rental listings.
 
+## Live Site
+Click the link below to visit the live site:
+
+[![Website](https://img.shields.io/badge/Website-Visit-brightgreen)](https://staywise-d2rd.onrender.com/listings)
+
 ---
 
 ## Features
