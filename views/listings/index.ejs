@@ -1,0 +1,74 @@
+<% layout("/layouts/boilerplate") %> 
+
+<div id="filters" class="hidden" data-aos="fade-right" data-aos-duration="800">
+    <div class="filter">
+        <div><i class="fa-solid fa-fire"></i></div>
+        <p>Trending</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-bed"></i></div>
+        <p>Rooms</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-city"></i></div>
+        <p>Iconic Cities</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-mountain-city"></i></div>
+        <p>Mountains</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-house-flood-water"></i></div>
+        <p>Cabins</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-person-swimming"></i></div>
+        <p>Pools</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-tractor"></i></div>
+        <p>Farms</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-campground"></i></div>
+        <p>Camping</p>
+    </div>
+    <div class="filter">
+        <div><i class="fa-solid fa-snowflake"></i></div>
+        <p>Arctic</p>
+    </div>
+    <div class="tax-toggle">
+        <label class="tax-label">
+            <h4><i>Post-Tax Reality</i></h4>
+            <input value="on" name="dummy" id="flexSwitchCheckDefault" type="checkbox" class="bubble">
+        </label>
+    </div>    
+</div>
+
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mt-3">
+    <% for(let listing of allListings) { %>
+        <a href="/listings/<%=listing._id %>" class="listing-link">
+            <div class="card col listing-card" data-aos="fade-up" data-aos-duration="800">
+                <img
+                    src="<%= listing.image.url %>"
+                    class="card-img-top"
+                    alt="listing_image"
+                    style="height: 20rem;"
+                />
+                <div class="card-img-overlay"></div>
+                <div class="card-body">
+                <p class="card-text">
+                    <b><%= listing.title %></b><br>
+                    &#8377;<%= listing.price.toLocaleString("en-IN") %> / night
+                    <i class="taxInfo"> &nbsp; +18 % GST</i>
+                </p>
+                </div>
+            </div>
+        </a>
+    <% } %>
+</div>
+
+
+
+
+

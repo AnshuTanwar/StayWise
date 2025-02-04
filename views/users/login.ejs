@@ -1,0 +1,19 @@
+<% layout("/layouts/boilerplate") %>
+
+
+<div class="row offset-2" data-aos="fade" data-aos-duration="1000">
+    <div class="col-8" data-aos="fade-up" data-aos-duration="1200">
+        <form action="/login" method="POST" class="needs-validation" novalidate>
+            <div class="mb-4">
+                <label for="username" class="form-label">Username</label>
+                <input name="username" id="uername" placeholder="Enter username" type="text" class="form-control" required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input name="password" id="password" placeholder="Enter a strong password" type="password" class="form-control" required>
+            </div>
+            <button class="btn btn-success btn-lg w-100" data-aos="zoom-in" data-aos-duration="1000">Login</button>
+        </form>
+    </div>
+</div>
+    
