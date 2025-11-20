@@ -94,6 +94,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For any inquiries or feedback, feel free to contact:
-
 - **Email**: aanshutanwar07@gmail.com
 - **GitHub**: [AnshuTanwar](https://github.com/AnshuTanwar)
